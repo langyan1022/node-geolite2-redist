@@ -11,7 +11,7 @@ import tar from 'tar'
 import { buildObjectFromEntries } from './ts-helpers.js'
 import { GeoIpDbName, Path, Checksum } from './primitives.js'
 
-const REDIST_MIRROR_URL = 'https://raw.githubusercontent.com/GitSquared/node-geolite2-redist/master/redist/'
+const REDIST_MIRROR_URL = 'https://gitee.com/ly1022/node-geolite2-redist/raw/master/redist/'
 
 const pRimraf = promisify<string, rimraf.Options>(rimraf)
 
